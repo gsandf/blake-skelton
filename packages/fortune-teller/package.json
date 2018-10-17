@@ -1,0 +1,23 @@
+{
+  "name": "fortune-teller",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "author": "GS&F Devs <mindreactor@gsandf.com> (https://gsandf.com/)",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "gsandf"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-gsandf": "^1.0.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.16.4"
+  }
+}
