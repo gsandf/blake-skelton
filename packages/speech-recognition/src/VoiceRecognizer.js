@@ -61,10 +61,15 @@ class VoiceRecognizer extends PureComponent {
     this.speechRecognition.interimResults = false;
     this.speechRecognition.maxAlternatives = 1;
     this.speechRecognition.onresult = this.handleResult;
+    this.speechRecognition.onend = this.handleEnd;
   }
 
   handleResult = ({ results }) => {
     this.setState({ capturedText: results[0][0].transcript });
+    this.stopRecording();
+  };
+
+  handleEnd = () => {
     this.stopRecording();
   };
 
