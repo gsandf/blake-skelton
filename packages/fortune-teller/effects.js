@@ -1,5 +1,6 @@
 const os = require('os');
-const Gpio = os === 'linux' ? require('onoff').Gpio : { accessible: false };
+const Gpio =
+  os.platform() === 'linux' ? require('onoff').Gpio : { accessible: false };
 
 const setupPin = (pinNumber, ...options) =>
   Gpio.accessible
