@@ -3,8 +3,19 @@ const { GraphQLServer } = require('graphql-yoga');
 
 const packageJson = require('./package.json');
 const { getFortune } = require('./fortune');
+const { setEffectState } = require('./effects');
 
 const typeDefs = /* GraphQL */ `
+  enum ApproachState {
+    NO_HUMANS
+    COME_CLOSER
+    FULL_INTERACTIVE
+  }
+
+  type Mutation {
+    approachState(state: ApproachState): String!
+  }
+
   type Status {
     freemem: String!
     loadavg: [Float]!
@@ -21,6 +32,13 @@ const typeDefs = /* GraphQL */ `
 `;
 
 const resolvers = {
+  Mutation: {
+    approachState: (_, { state }) => {
+      setEffectState(state);
+      return state;
+    }
+  },
+
   Query: {
     fortune: async (_, { question }) => (await getFortune(question)).answer,
     ping: () => 'pong',
