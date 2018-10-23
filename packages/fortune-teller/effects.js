@@ -28,7 +28,7 @@ const states = {
 
 function toggle(pinValues) {
   Object.entries(pinValues).forEach(([pinName, value]) =>
-    pins[pinName].writeSync(value)
+    pins[pinName].writeSync(Number(value))
   );
 }
 
