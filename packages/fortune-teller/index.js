@@ -1,6 +1,8 @@
 const { freemem, loadavg, totalmem } = require('os');
 const { GraphQLServer } = require('graphql-yoga');
+
 const packageJson = require('./package.json');
+const { getFortune } = require('./fortune');
 
 const typeDefs = /* GraphQL */ `
   type Status {
@@ -20,7 +22,7 @@ const typeDefs = /* GraphQL */ `
 
 const resolvers = {
   Query: {
-    fortune: (_, { question }) => `Question was ${question}`,
+    fortune: async (_, { question }) => (await getFortune(question)).answer,
     ping: () => 'pong',
     status: () => ({
       /* pass to Status field resolvers */
