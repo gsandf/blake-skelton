@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 
+import { getFortune } from './getFortune';
+
 const RecordButton = styled.button.attrs({ children: 'Record' })`
   background-color: papayawhip;
   border: 0;
@@ -64,8 +66,10 @@ class VoiceRecognizer extends PureComponent {
     this.speechRecognition.onend = this.handleEnd;
   }
 
-  handleResult = ({ results }) => {
-    this.setState({ capturedText: results[0][0].transcript });
+  handleResult = async ({ results }) => {
+    const capturedText = results[0][0].transcript;
+    this.setState({ capturedText });
+    await getFortune(capturedText);
     this.stopRecording();
   };
 
