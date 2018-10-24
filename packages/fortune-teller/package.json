@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "graphql-yoga": "^1.16.4",
-    "mmm-usonic-fixed": "^2.5.4",
     "node-nlp": "^2.1.1",
     "onoff": "^3.2.2"
   }
