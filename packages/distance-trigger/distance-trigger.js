@@ -8,7 +8,7 @@ function initSensor() {
 
     usonic.init(err => {
       if (err) return reject(err);
-      sensor = usonic.createSensor(24, 23, 300);
+      sensor = usonic.createSensor(24, 23, 450);
       resolve(sensor);
     });
   });
