@@ -8,7 +8,7 @@ function initSensor() {
 
     usonic.init(err => {
       if (err) return reject(err);
-      sensor = usonic.createSensor(24, 23, 450);
+      sensor = usonic.createSensor(24, 23, 300);
       resolve(sensor);
     });
   });
@@ -31,7 +31,7 @@ async function watchForDistance(minDistance, debounceCount, cb) {
       timesSensed = 0;
       cb();
     }
-  }, 1000);
+  }, 500);
 }
 
 module.exports = {
