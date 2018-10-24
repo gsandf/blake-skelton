@@ -22,7 +22,7 @@ async function watchForDistance(minDistance, debounceCount, cb) {
     // Convert distance to mm
     const distance = sensor() * 10;
 
-    if (distance > minDistance) {
+    if (distance < 0 || distance > minDistance) {
       timesSensed = 0;
       return;
     }
