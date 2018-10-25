@@ -21,7 +21,7 @@ async function init() {
 
   const browser = await puppeteer.launch(options);
   const context = browser.defaultBrowserContext();
-  await context.overridePermissions('http://localhost:4000', ['microphone']);
+  // await context.overridePermissions('http://localhost:4000', ['microphone']);
   page = await context.newPage();
   await page.goto('http://localhost:4000');
   console.log('Loaded recognition page in browser');
