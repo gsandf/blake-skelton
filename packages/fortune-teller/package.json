@@ -23,6 +23,7 @@
     "onoff": "^3.2.2",
     "path-exists": "^3.0.0",
     "play-sound": "^1.1.2",
+    "puppeteer-core": "^1.9.0",
     "unique-random-array": "^1.0.1"
   }
 }

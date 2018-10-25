@@ -1,6 +1,10 @@
 const path = require('path');
 const express = require('express');
+
 const { server } = require('./server');
+const speechServcie = require('./speech-service');
+
+speechServcie.init();
 
 server.express.use(
   '/',
