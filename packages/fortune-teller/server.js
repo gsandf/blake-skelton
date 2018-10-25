@@ -40,7 +40,7 @@ const resolvers = {
   },
 
   Query: {
-    fortune: async (_, { question }) => (await getFortune(question)).answer,
+    fortune: (_, { question }) => getFortune(question),
     ping: () => 'pong',
     status: () => ({
       /* pass to Status field resolvers */
