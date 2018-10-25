@@ -14,6 +14,7 @@ const lights = setupPin(17, 'out');
 const smoke = setupPin(27, 'out');
 
 function setEffects(lightsValue, smokeValue) {
+    // TODO rather than set the pins directly, this will need to contact the other raspberry pi and tell it to turn the pins on or off
     lights.writeSync(lightsValue);
     smoke.writeSync(smokeValue);
 }

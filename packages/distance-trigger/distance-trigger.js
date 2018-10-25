@@ -1,5 +1,4 @@
 const usonic = require('mmm-usonic-fixed');
-const specialEffects = require('special-effects');
 
 let sensor;
 
@@ -25,14 +24,13 @@ async function watchForDistance(minDistance, debounceCount, cb) {
 
     if (distance < 0 || distance > minDistance) {
       timesSensed = 0;
-      specialEffects.setEffects(0, 0);
+      cb(false);
       return;
     }
 
     if (++timesSensed > debounceCount) {
       timesSensed = 0;
-      specialEffects.setEffects(1, 1);
-      cb();
+      cb(true);
     }
   }, 500);
 }
