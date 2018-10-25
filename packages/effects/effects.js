@@ -10,8 +10,8 @@ const setupPin = (pinNumber, ...options) =>
             writeSync: value => console.log(`setting pin ${pinNumber} to `, value)
         };
 
-const lights = setupPin(0, 'out'); //TODO get pin numbers
-const smoke = setupPin(0, 'out');
+const lights = setupPin(17, 'out');
+const smoke = setupPin(27, 'out');
 
 function setEffects(lightsValue, smokeValue) {
     lights.writeSync(lightsValue);
