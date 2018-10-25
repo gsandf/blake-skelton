@@ -1,3 +1,3 @@
 var specialEffects = require('./special-effects');
 
-specialEffects.setEffects(false, false);
+specialEffects.setEffects(false, false); // start off
