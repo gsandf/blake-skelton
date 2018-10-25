@@ -5,6 +5,7 @@
   "author": "GS&F Devs <mindreactor@gsandf.com> (https://gsandf.com/)",
   "license": "MIT",
   "dependencies": {
-    "mmm-usonic-fixed": "^2.5.4"
+    "mmm-usonic-fixed": "^2.5.4",
+    "special-effects": "^0.1.0"
   }
 }
