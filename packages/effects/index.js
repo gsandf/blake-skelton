@@ -1,19 +1,3 @@
-function initEffects() {
+var effects = require('./effects');
 
-}
-
-function startLights() {
-
-}
-
-function stopLights() {
-
-}
-
-function startSmoke() {
-
-}
-
-function stopSmoke() {
-    
-}
+effects.setEffects(false, false);
