@@ -64,6 +64,9 @@ class VoiceRecognizer extends PureComponent {
     this.speechRecognition.maxAlternatives = 1;
     this.speechRecognition.onresult = this.handleResult;
     this.speechRecognition.onend = this.handleEnd;
+
+    // Allow outside scripts to initiate recording
+    window.startRecording = this.startRecording;
   }
 
   handleResult = async ({ results }) => {
