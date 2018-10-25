@@ -14,7 +14,8 @@ async function init() {
     options.executablePath =
       '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
     options.userDataDir = path.resolve(
-      '~/Library/Application Support/Google/Chrome'
+      process.env.HOME,
+      'Library/Application Support/Google/Chrome'
     );
   }
 
