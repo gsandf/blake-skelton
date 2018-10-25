@@ -12,6 +12,11 @@ const typeDefs = /* GraphQL */ `
     FULL_INTERACTIVE
   }
 
+  type Fortune {
+    response: String!
+    played: Boolean!
+  }
+
   type Mutation {
     approachState(state: ApproachState): String!
   }
@@ -24,7 +29,7 @@ const typeDefs = /* GraphQL */ `
   }
 
   type Query {
-    fortune(question: String!): String!
+    fortune(question: String!): Fortune!
     ping: String!
     status: Status!
     version: String!

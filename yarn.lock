@@ -4463,6 +4463,13 @@ find-cache-dir@^2.0.0:
     make-dir "^1.0.0"
     pkg-dir "^3.0.0"
 
+find-exec@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/find-exec/-/find-exec-1.0.0.tgz#65249cd524de08050531d9d0b84ad2ee1ab727c9"
+  integrity sha1-ZSSc1STeCAUFMdnQuErS7hq3J8k=
+  dependencies:
+    sync-exec "^0.6.2"
+
 find-up@3.0.0, find-up@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
@@ -7996,6 +8003,13 @@ pkg-up@2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+play-sound@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/play-sound/-/play-sound-1.1.2.tgz#aaca3047692af571c0d3a9dc475a5fa7c21322c5"
+  integrity sha1-qsowR2kq9XHA06ncR1pfp8ITIsU=
+  dependencies:
+    find-exec "1.0.0"
+
 pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
@@ -10321,6 +10335,11 @@ symbol-tree@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
   integrity sha1-rifbOPZgp64uHDt9G8KQgZuFGeY=
+
+sync-exec@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/sync-exec/-/sync-exec-0.6.2.tgz#717d22cc53f0ce1def5594362f3a89a2ebb91105"
+  integrity sha1-cX0izFPwzh3vVZQ2LzqJouu5EQU=
 
 table@^4.0.3:
   version "4.0.3"
