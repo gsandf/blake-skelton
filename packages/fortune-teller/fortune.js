@@ -1,4 +1,8 @@
 const { Language, NlpManager } = require('node-nlp');
+const path = require('path');
+const pathExists = require('path-exists');
+const player = require('play-sound')();
+
 const { getFallbackAnswer, questionTypes } = require('./questions');
 
 const languages = ['en', 'zh'];
@@ -24,7 +28,16 @@ manager.save();
 module.exports = {
   getFortune: async question => {
     const guessedLanguage = language.guessBest(question, languages);
-    const response = await manager.process(guessedLanguage.locale, question);
-    return response.answer || getFallbackAnswer();
+    const intent = await manager.process(guessedLanguage.locale, question);
+    const response = intent.answer || getFallbackAnswer();
+    const audioFilePath = `${path.resolve(__dirname, 'audio', response)}.wav`;
+    let played = false;
+
+    if (await pathExists(audioFilePath)) {
+      player.play(audioFilePath);
+      played = true;
+    }
+
+    return { played, response };
   }
 };
