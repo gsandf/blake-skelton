@@ -2,7 +2,10 @@ import { query } from './query';
 
 const getFortuneQuery = /* GraphQL */ `
   query($question: String!) {
-    fortune(question: $question)
+    fortune(question: $question) {
+      played
+      response
+    }
   }
 `;
 

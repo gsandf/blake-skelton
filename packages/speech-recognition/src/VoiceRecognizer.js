@@ -80,9 +80,14 @@ class VoiceRecognizer extends PureComponent {
     this.stopRecording();
   };
 
-  startRecording = () => {
-    this.speechRecognition.start();
-    this.setState({ status: this.recordingStates.recording });
+  startRecording = async () => {
+    if (this.state.status === this.recordingStates.waiting) {
+      this.speechRecognition.start();
+      this.setState({ status: this.recordingStates.recording });
+      return 'started recording on client';
+    } else {
+      return 'already recording';
+    }
   };
 
   stopRecording() {
