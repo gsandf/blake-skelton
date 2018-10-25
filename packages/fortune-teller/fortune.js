@@ -9,21 +9,30 @@ const languages = ['en', 'zh'];
 const language = new Language();
 const manager = new NlpManager({ languages });
 
-questionTypes.forEach(questionType => {
-  const { id, lang } = questionType;
+const trainedModelFile = path.resolve(__dirname, 'model.nlp');
 
-  questionType.inputs.forEach(input => {
-    manager.addDocument(lang, input, id);
+if (pathExists.sync(trainedModelFile)) {
+  console.log('using previously created model');
+  manager.load(trainedModelFile);
+} else {
+  console.log('creating new model');
+
+  questionTypes.forEach(questionType => {
+    const { id, lang } = questionType;
+
+    questionType.inputs.forEach(input => {
+      manager.addDocument(lang, input, id);
+    });
+
+    questionType.outputs.forEach(output => {
+      manager.addAnswer(lang, id, output);
+    });
   });
 
-  questionType.outputs.forEach(output => {
-    manager.addAnswer(lang, id, output);
-  });
-});
-
-// Train and save the model.
-manager.train();
-manager.save();
+  // Train and save the model.
+  manager.train();
+  manager.save();
+}
 
 module.exports = {
   getFortune: async question => {
