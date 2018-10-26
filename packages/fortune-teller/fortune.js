@@ -43,7 +43,7 @@ module.exports = {
     let played = false;
 
     if (await pathExists(audioFilePath)) {
-      player.play(audioFilePath);
+      player.play(audioFilePath, { aplay: ['-Dplug:default'] });
       played = true;
     }
 
