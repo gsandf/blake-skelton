@@ -3,10 +3,11 @@
   "scripts": {
     "format": "npx prettier-eslint-cli --write 'packages/**/*.js'",
     "start:effects": "export HOSTNAME='pieffects'; cd packages/fortune-teller && yarn start",
-    "start:speech": "export HOSTNAME='pispeech'; DISPLAY=:0 run-p start:fortune-teller start:distance-trigger",
-    "start:speech:fast": "export HOSTNAME='pispeech'; DISPLAY=:0 run-p start:effects start:distance-trigger",
+    "start:speech": "export HOSTNAME='pispeech'; DISPLAY=:0 run-p start:fortune-teller:build start:distance-trigger",
+    "start:speech:fast": "export HOSTNAME='pispeech'; DISPLAY=:0 run-p start:fortune-teller start:distance-trigger",
     "start:distance-trigger": "wait-port 4000 && cd packages/distance-trigger && sudo node .",
-    "start:fortune-teller": "cd packages/speech-recognition && yarn build && cd ../fortune-teller && yarn start"
+    "start:fortune-teller": "export HOSTNAME='pispeech'; cd packages/fortune-teller && yarn start",
+    "start:fortune-teller:build": "cd packages/speech-recognition && yarn build && cd ../fortune-teller && yarn start"
   },
   "workspaces": [
     "packages/*"
