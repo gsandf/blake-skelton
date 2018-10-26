@@ -7,7 +7,8 @@ let page;
 async function init() {
   const options = {
     executablePath: '/usr/bin/chromium-browser',
-    headless: false
+    headless: false,
+    userDataDir: path.resolve(process.env.HOME, '.config/chromium')
   };
 
   if (os.platform() === 'darwin') {
