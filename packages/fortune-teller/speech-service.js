@@ -8,6 +8,7 @@ async function init() {
   const options = {
     executablePath: '/usr/bin/chromium-browser',
     headless: false,
+    ignoreDefaultArgs: ['--mute-audio'],
     userDataDir: path.resolve(process.env.HOME, '.config/chromium')
   };
 
