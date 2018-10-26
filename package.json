@@ -4,6 +4,7 @@
     "format": "npx prettier-eslint-cli --write 'packages/**/*.js'",
     "start:effects": "cd packages/fortune-teller && yarn start",
     "start:speech": "run-p start:fortune-teller start:distance-trigger",
+    "start:speech:fast": "run-p start:effects start:distance-trigger",
     "start:distance-trigger": "wait-port 4000 && cd packages/distance-trigger && sudo node .",
     "start:fortune-teller": "cd packages/speech-recognition && yarn build && cd ../fortune-teller && yarn start"
   },
