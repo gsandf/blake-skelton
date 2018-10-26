@@ -5,6 +5,9 @@ const packageJson = require('./package.json');
 const { getFortune } = require('./fortune');
 const { setEffectState } = require('./effects');
 const { startRecording } = require('./speech-service');
+const { syncEffectState } = require('./sync-effects');
+
+const isEffectsController = process.env.HOSTNAME === 'pieffects';
 
 const typeDefs = /* GraphQL */ `
   enum ApproachState {
@@ -41,7 +44,11 @@ const resolvers = {
   Mutation: {
     approachState: (_, { state }) => {
       if (state === 'FULL_INTERACTIVE') startRecording();
-      setEffectState(state);
+      if (isEffectsController) {
+        setEffectState(state);
+      } else {
+        syncEffectState(state);
+      }
       return state;
     }
   },

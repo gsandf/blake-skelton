@@ -1,3 +1,0 @@
-const specialEffects = require('./special-effects');
-
-specialEffects.setEffects(false, false); // start off

@@ -1,15 +1,18 @@
 {
-  "name": "distance-trigger",
+  "name": "@blake-skelton/distance-trigger",
   "version": "0.1.0",
   "main": "index.js",
   "author": "GS&F Devs <mindreactor@gsandf.com> (https://gsandf.com/)",
   "license": "MIT",
   "eslintConfig": {
-    "extends": "gsandf"
+    "extends": "gsandf",
+    "rules": {
+      "standard/no-callback-literal": "off"
+    }
   },
   "dependencies": {
-    "mmm-usonic-fixed": "^2.5.4",
-    "special-effects": "^0.1.0"
+    "@blake-skelton/node-query": "0.1.0",
+    "mmm-usonic-fixed": "^2.5.4"
   },
   "devDependencies": {
     "eslint-config-gsandf": "^1.0.0"

@@ -1,5 +1,5 @@
 {
-  "name": "speech-recognition",
+  "name": "@blake-skelton/speech-recognition",
   "version": "0.1.0",
   "private": true,
   "eslintConfig": {

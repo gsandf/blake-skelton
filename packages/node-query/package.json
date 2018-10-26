@@ -1,5 +1,5 @@
 {
-  "name": "special-effects",
+  "name": "@blake-skelton/node-query",
   "version": "0.1.0",
   "main": "index.js",
   "author": "GS&F Devs <mindreactor@gsandf.com> (https://gsandf.com/)",
@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "eslint-config-gsandf": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }

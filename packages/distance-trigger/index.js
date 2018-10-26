@@ -1,14 +1,11 @@
 const { watchForDistance } = require('./distance-trigger');
-const specialEffects = require('special-effects');
+const { setDetectedState } = require('./setDetectedState');
 
 watchForDistance(1000, 1, detected => {
-  if (detected) {
-    console.log('Close enough');
-    specialEffects(1, 1);
-    // todo initiate speech recognition
-  } else {
-    console.log('no one there');
-    specialEffects(0, 0);
-    // todo turn off speech recognition
-  }
+  console.log(
+    'distance-trigger:',
+    detected ? 'Detected people' : 'No one detected'
+  );
+
+  setDetectedState(detected);
 });
