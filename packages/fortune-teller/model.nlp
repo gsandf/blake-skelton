@@ -1,0 +1,5652 @@
+{
+  "settings": {
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "fullSearchWhenGuessed": true,
+    "useNlg": true,
+    "useNeural": true
+  },
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "intentDomains": {
+    "bye": "default",
+    "hello": "default",
+    "name": "default",
+    "standard": "default"
+  },
+  "nerManager": {
+    "settings": {},
+    "threshold": 0.8,
+    "builtins": [
+      "Number",
+      "Ordinal",
+      "Percentage",
+      "Age",
+      "Currency",
+      "Dimension",
+      "Temperature",
+      "DateTime",
+      "PhoneNumber",
+      "IpAddress",
+      "Boolean",
+      "Email",
+      "Hashtag",
+      "URL"
+    ],
+    "namedEntities": {}
+  },
+  "slotManager": {},
+  "classifiers": [
+    {
+      "language": "en",
+      "docs": [
+        {
+          "intent": "bye",
+          "utterance": [
+            "goodby",
+            "for",
+            "now"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "bye",
+            "bye"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "take",
+            "care"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "okai",
+            "see",
+            "you",
+            "later"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "bye"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "bye",
+            "for",
+            "now"
+          ]
+        },
+        {
+          "intent": "bye",
+          "utterance": [
+            "i",
+            "must",
+            "go"
+          ]
+        },
+        {
+          "intent": "hello",
+          "utterance": [
+            "hello"
+          ]
+        },
+        {
+          "intent": "hello",
+          "utterance": [
+            "hi"
+          ]
+        },
+        {
+          "intent": "hello",
+          "utterance": [
+            "howdi"
+          ]
+        },
+        {
+          "intent": "name",
+          "utterance": [
+            "what",
+            "is",
+            "your",
+            "name"
+          ]
+        },
+        {
+          "intent": "name",
+          "utterance": [
+            "what",
+            "ar",
+            "you"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "a",
+            "good",
+            "person"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "current",
+            "pregnant"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "hi",
+            "girlfriend"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "move",
+            "back",
+            "to",
+            "philli"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "move"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "am",
+            "i",
+            "pregnant"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "airplan",
+            "flown",
+            "insid"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "appl",
+            "red",
+            "fruit"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "aspirin",
+            "and",
+            "blah",
+            "medicin"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "banana",
+            "and",
+            "orang",
+            "sweet",
+            "veget"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "band",
+            "aid",
+            "us",
+            "for",
+            "heal"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "car",
+            "us",
+            "to",
+            "drive",
+            "on",
+            "the",
+            "water"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "chip",
+            "and",
+            "pretzel",
+            "salti"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "clock",
+            "and",
+            "bike",
+            "us",
+            "to",
+            "tell",
+            "time"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "coffe",
+            "and",
+            "hot",
+            "chocol",
+            "cold",
+            "drink"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "comput",
+            "us",
+            "to",
+            "brush",
+            "your",
+            "teeth",
+            "with"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "dog",
+            "and",
+            "cat",
+            "anim",
+            "that",
+            "live",
+            "in",
+            "the",
+            "jungl"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "fli",
+            "and",
+            "robin",
+            "small",
+            "insect"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "footbal",
+            "and",
+            "basebal",
+            "type",
+            "of",
+            "food"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "fruit",
+            "and",
+            "veget",
+            "healthi",
+            "to",
+            "eat"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "hous",
+            "more",
+            "than",
+            "50",
+            "dollar"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "lasagna",
+            "and",
+            "spaghetti",
+            "chines",
+            "dish"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "lizard",
+            "small"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "muscl",
+            "need",
+            "to",
+            "move",
+            "our",
+            "bodi"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "musician",
+            "and",
+            "artist",
+            "creativ"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "my",
+            "parent",
+            "proud",
+            "of",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "oven",
+            "us",
+            "to",
+            "freez",
+            "thing"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "paint",
+            "and",
+            "syrup",
+            "us",
+            "to",
+            "take",
+            "a",
+            "bath",
+            "in"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "peanut",
+            "made",
+            "into",
+            "jam"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "pencil",
+            "and",
+            "marker",
+            "us",
+            "to",
+            "write",
+            "on",
+            "a",
+            "whiteboard"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "pillow",
+            "and",
+            "mattress",
+            "us",
+            "to",
+            "sleep",
+            "on"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "rattlesnak",
+            "poison"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "rose",
+            "tall",
+            "tree"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "scoop",
+            "of",
+            "ic",
+            "cream",
+            "sweet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "shoe",
+            "worn",
+            "over",
+            "the",
+            "top",
+            "of",
+            "sock"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "shovel",
+            "someth",
+            "you",
+            "would",
+            "us",
+            "to",
+            "dig",
+            "a",
+            "hole",
+            "with"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "spanish",
+            "and",
+            "german",
+            "differ",
+            "languag"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "the",
+            "last",
+            "dai",
+            "approach"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "the",
+            "letter",
+            "d",
+            "and",
+            "s",
+            "in",
+            "the",
+            "word",
+            "dress"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "there",
+            "80",
+            "minut",
+            "in",
+            "an",
+            "hour"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "tryout",
+            "next",
+            "week"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "umbrella",
+            "us",
+            "to",
+            "keep",
+            "you",
+            "wet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "violin",
+            "and",
+            "piano",
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "we",
+            "go",
+            "to",
+            "be",
+            "togeth",
+            "again"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "we",
+            "realli",
+            "in",
+            "love"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ar",
+            "wild",
+            "anim",
+            "danger"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "a",
+            "backpack",
+            "get",
+            "a",
+            "cold"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "a",
+            "circl",
+            "have",
+            "corner"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "a",
+            "fish",
+            "live",
+            "out",
+            "of",
+            "water"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "a",
+            "tiger",
+            "be",
+            "your",
+            "pet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "he",
+            "realli",
+            "know",
+            "how",
+            "to",
+            "love"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "i",
+            "realli",
+            "make",
+            "thi",
+            "jump"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "pig",
+            "walk",
+            "on",
+            "two",
+            "feet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "space",
+            "save",
+            "our",
+            "relationship"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "the",
+            "titan",
+            "win",
+            "the",
+            "next",
+            "superbowl"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "the",
+            "world",
+            "be",
+            "save"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "thi",
+            "thing",
+            "realli",
+            "help",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "brush",
+            "your",
+            "teeth",
+            "with",
+            "a",
+            "shoe"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "bui",
+            "egg",
+            "by",
+            "the",
+            "dozen"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "drive",
+            "a",
+            "car",
+            "wear",
+            "a",
+            "blindfold"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "drive",
+            "a",
+            "car",
+            "without",
+            "wear",
+            "a",
+            "seatbelt"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "eat",
+            "tomato",
+            "soup",
+            "with",
+            "a",
+            "fork"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "eat",
+            "without",
+            "a",
+            "mouth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "freez",
+            "orang",
+            "juic"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "fry",
+            "veget",
+            "in",
+            "a",
+            "pan"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "grow",
+            "a",
+            "mustach",
+            "on",
+            "your",
+            "foot"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "jump",
+            "over",
+            "a",
+            "puddl"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "keep",
+            "a",
+            "hors",
+            "insid",
+            "your",
+            "hous"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "make",
+            "bread",
+            "without",
+            "us",
+            "flour"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "rake",
+            "leav",
+            "with",
+            "a",
+            "hammer"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "ride",
+            "a",
+            "bike",
+            "without",
+            "a",
+            "helmet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "ride",
+            "a",
+            "camel"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "rip",
+            "concret"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "see",
+            "in",
+            "the",
+            "dark",
+            "without",
+            "a",
+            "flashlight"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "sleep",
+            "in",
+            "the",
+            "dai",
+            "time"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "stir",
+            "someth",
+            "with",
+            "a",
+            "spoon"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "stretch",
+            "a",
+            "rock"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "teach",
+            "a",
+            "cat",
+            "to",
+            "talk"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "touch",
+            "your",
+            "elbow",
+            "with",
+            "your",
+            "nose"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "us",
+            "a",
+            "shovel",
+            "at",
+            "the",
+            "beach"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "wear",
+            "a",
+            "tie"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "can",
+            "you",
+            "wear",
+            "pajama",
+            "to",
+            "school"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "could",
+            "i",
+            "spend",
+            "more",
+            "on",
+            "cloth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "could",
+            "my",
+            "mom",
+            "try",
+            "and",
+            "sue",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "could",
+            "she",
+            "try",
+            "and",
+            "leav",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "could",
+            "the",
+            "celtic",
+            "win",
+            "the",
+            "nba",
+            "titl"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "could",
+            "thi",
+            "be",
+            "the",
+            "last",
+            "time",
+            "i",
+            "see",
+            "him"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "i",
+            "forget",
+            "to",
+            "lock",
+            "my",
+            "door"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "i",
+            "realli",
+            "love",
+            "her"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "joe",
+            "come",
+            "to",
+            "confess",
+            "hi",
+            "love",
+            "to",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "joe",
+            "come",
+            "to",
+            "see",
+            "if",
+            "hi",
+            "feel",
+            "ar",
+            "the",
+            "same",
+            "for",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "my",
+            "date",
+            "realli",
+            "ditch",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "that",
+            "bad",
+            "date",
+            "realli",
+            "matter"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "did",
+            "the",
+            "chicken",
+            "go",
+            "bad",
+            "in",
+            "the",
+            "fridg"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "astronaut",
+            "work",
+            "in",
+            "groceri",
+            "store"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "babi",
+            "need",
+            "their",
+            "diaper",
+            "chang"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "babi",
+            "bird",
+            "get",
+            "fed",
+            "by",
+            "their",
+            "mother"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "butterfli",
+            "run",
+            "fast"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "car",
+            "have",
+            "engin"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "cat",
+            "climb",
+            "tree"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "children",
+            "plai",
+            "with",
+            "toi"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "comput",
+            "help",
+            "us",
+            "find",
+            "inform"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "eleph",
+            "live",
+            "in",
+            "the",
+            "ocean"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "eras",
+            "remov",
+            "pencil",
+            "mark"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "fire",
+            "extinguish",
+            "help",
+            "fireman"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "footbal",
+            "player",
+            "us",
+            "stick"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "hors",
+            "wear",
+            "sock"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "i",
+            "have",
+            "a",
+            "chanc"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "i",
+            "like",
+            "him",
+            "enough",
+            "to",
+            "be",
+            "my",
+            "bf"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "i",
+            "like",
+            "him"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "new",
+            "cloth",
+            "get",
+            "dirti"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "pilot",
+            "fly",
+            "paper",
+            "plane"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "plant",
+            "wear",
+            "glass"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "storm",
+            "damag",
+            "home"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "teacher",
+            "help",
+            "you",
+            "learn"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "we",
+            "call",
+            "a",
+            "school",
+            "if",
+            "we",
+            "have",
+            "an",
+            "emerg"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "we",
+            "have",
+            "a",
+            "staff",
+            "meet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "we",
+            "need",
+            "our",
+            "hand",
+            "to",
+            "plai",
+            "a",
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "we",
+            "realli",
+            "need",
+            "each",
+            "other"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "window",
+            "need",
+            "to",
+            "be",
+            "clean"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "chew",
+            "soup"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "enjoi",
+            "travel"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "get",
+            "wet",
+            "when",
+            "you",
+            "go",
+            "swim"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "still",
+            "work"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "throw",
+            "thing",
+            "in",
+            "the",
+            "garbag",
+            "that",
+            "ar",
+            "broken"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "do",
+            "you",
+            "us",
+            "roller",
+            "skate",
+            "on",
+            "the",
+            "grass"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "an",
+            "orang",
+            "have",
+            "more",
+            "juic",
+            "than",
+            "a",
+            "banana"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "domen",
+            "want",
+            "a",
+            "relationship"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "duan",
+            "want",
+            "a",
+            "relationship",
+            "with",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "he",
+            "love",
+            "me",
+            "to",
+            "death"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "he",
+            "want",
+            "me",
+            "out",
+            "of",
+            "hi",
+            "life"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "he",
+            "want",
+            "to",
+            "see",
+            "fleetwood",
+            "mac",
+            "with",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "it",
+            "snow",
+            "dure",
+            "the",
+            "summer"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "john",
+            "miss",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "my",
+            "husband",
+            "understand",
+            "happi",
+            "wife",
+            "happi",
+            "life"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "the",
+            "sun",
+            "make",
+            "thing",
+            "hot"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "warren",
+            "meet",
+            "loretta",
+            "at",
+            "the",
+            "store",
+            "befor",
+            "work"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "yogurt",
+            "go",
+            "bad",
+            "if",
+            "not",
+            "refriger"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "doe",
+            "your",
+            "birthdai",
+            "alwai",
+            "happen",
+            "on",
+            "the",
+            "same",
+            "dai"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "he",
+            "been",
+            "cheat",
+            "on",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "it",
+            "realli",
+            "been",
+            "too",
+            "long",
+            "to",
+            "get",
+            "back",
+            "togeth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "mike",
+            "been",
+            "on",
+            "a",
+            "date",
+            "alreadi"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "the",
+            "milk",
+            "spoil",
+            "in",
+            "the",
+            "fridg"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "thi",
+            "trip",
+            "made",
+            "joe",
+            "realiz",
+            "he",
+            "want",
+            "to",
+            "be",
+            "with",
+            "me",
+            "forev"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "ha",
+            "thi",
+            "workout",
+            "realli",
+            "been",
+            "help",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "i",
+            "been",
+            "cheat",
+            "on",
+            "my",
+            "wife"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "i",
+            "been",
+            "spend",
+            "too",
+            "much",
+            "on",
+            "cloth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "i",
+            "lost",
+            "my",
+            "sens",
+            "of",
+            "empathi"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "i",
+            "spoken",
+            "to",
+            "my",
+            "soulmat",
+            "befor"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "the",
+            "predat",
+            "been",
+            "practic",
+            "hard"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "have",
+            "the",
+            "staff",
+            "been",
+            "spread",
+            "rumor",
+            "about",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "it",
+            "is",
+            "june",
+            "is",
+            "it",
+            "hot",
+            "at",
+            "the",
+            "north",
+            "pole"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "someon",
+            "smile",
+            "ar",
+            "thei",
+            "sad"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "someth",
+            "is",
+            "light",
+            "would",
+            "it",
+            "sink"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "someth",
+            "is",
+            "tasti",
+            "is",
+            "it",
+            "bad"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "someth",
+            "smell",
+            "doe",
+            "it",
+            "stink"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "there",
+            "is",
+            "snow",
+            "on",
+            "the",
+            "ground",
+            "is",
+            "it",
+            "summer"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "break",
+            "an",
+            "egg",
+            "can",
+            "you",
+            "fix",
+            "it"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "cut",
+            "yourself",
+            "realli",
+            "bad",
+            "should",
+            "you",
+            "go",
+            "to",
+            "the",
+            "dentist"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "have",
+            "a",
+            "ball",
+            "can",
+            "you",
+            "plai",
+            "catch"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "have",
+            "a",
+            "bracelet",
+            "do",
+            "you",
+            "own",
+            "jewelri"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "have",
+            "a",
+            "pen",
+            "and",
+            "paper",
+            "can",
+            "you",
+            "write",
+            "your",
+            "name"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "have",
+            "boil",
+            "water",
+            "is",
+            "it",
+            "hot"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "rip",
+            "your",
+            "shirt",
+            "would",
+            "you",
+            "stapl",
+            "it",
+            "back",
+            "togeth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "want",
+            "to",
+            "watch",
+            "a",
+            "movi",
+            "would",
+            "you",
+            "go",
+            "to",
+            "a",
+            "bank"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "want",
+            "to",
+            "get",
+            "warm",
+            "would",
+            "you",
+            "drink",
+            "hot",
+            "chocol"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "went",
+            "to",
+            "a",
+            "restaur",
+            "would",
+            "you",
+            "see",
+            "clown"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "bee",
+            "could",
+            "you",
+            "sing"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "bird",
+            "would",
+            "you",
+            "have",
+            "fin"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "builder",
+            "would",
+            "you",
+            "us",
+            "a",
+            "hammer"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "cat",
+            "would",
+            "you",
+            "have",
+            "three",
+            "leg"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "caterpillar",
+            "would",
+            "you",
+            "have",
+            "leg"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "chair",
+            "could",
+            "you",
+            "swim"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "comput",
+            "would",
+            "you",
+            "be",
+            "aliv"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "fish",
+            "could",
+            "you",
+            "jump"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "hors",
+            "could",
+            "you",
+            "gallup"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "a",
+            "shark",
+            "would",
+            "you",
+            "eat",
+            "fish"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "an",
+            "ant",
+            "would",
+            "you",
+            "live",
+            "in",
+            "dirt"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "an",
+            "owner",
+            "would",
+            "you",
+            "have",
+            "a",
+            "pet"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "you",
+            "were",
+            "rotten",
+            "would",
+            "you",
+            "smell",
+            "nice"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "if",
+            "your",
+            "bike",
+            "ha",
+            "a",
+            "flat",
+            "tire",
+            "should",
+            "you",
+            "ride",
+            "it"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "domen",
+            "a",
+            "cheater"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "everyth",
+            "go",
+            "to",
+            "be",
+            "okai"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "he",
+            "ly",
+            "to",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "he",
+            "scare",
+            "that",
+            "he",
+            "mai",
+            "of",
+            "lose",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "it",
+            "worth",
+            "bet",
+            "on",
+            "the",
+            "next",
+            "game"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "john",
+            "abl",
+            "to",
+            "drive"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "john",
+            "happi"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "john",
+            "still",
+            "sick"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "julien",
+            "see",
+            "someon",
+            "els"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "my",
+            "wife",
+            "cheat"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "she",
+            "mad",
+            "at",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "the",
+            "person",
+            "i",
+            "love",
+            "in",
+            "thi",
+            "build"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "thi",
+            "all",
+            "a",
+            "dream"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "is",
+            "your",
+            "favorit",
+            "drink",
+            "coffe"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "mai",
+            "i",
+            "have",
+            "a",
+            "wish"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "mai",
+            "i",
+            "have",
+            "some",
+            "extra",
+            "luck"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "appli",
+            "for",
+            "the",
+            "librari",
+            "manag",
+            "posit"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "bui",
+            "the",
+            "dress"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "get",
+            "a",
+            "burger",
+            "for",
+            "lunch"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "give",
+            "becki",
+            "the",
+            "monei",
+            "for",
+            "shop"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "go",
+            "to",
+            "see",
+            "fleetwood",
+            "mac"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "go",
+            "to",
+            "the",
+            "casino",
+            "todai"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "reach",
+            "out",
+            "to",
+            "him"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "should",
+            "i",
+            "talk",
+            "to",
+            "sanskar"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "so",
+            "am",
+            "i",
+            "a",
+            "nice",
+            "person"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "he",
+            "cheat",
+            "on",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "i",
+            "too",
+            "mean",
+            "to",
+            "him"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "it",
+            "okai",
+            "that",
+            "i",
+            "did",
+            "not",
+            "help",
+            "out"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "my",
+            "friend",
+            "ly",
+            "about",
+            "why",
+            "we",
+            "couldnt",
+            "hang",
+            "out"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "the",
+            "world",
+            "seri",
+            "fix"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "wa",
+            "thi",
+            "the",
+            "last",
+            "time",
+            "she",
+            "will",
+            "talk",
+            "to",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "were",
+            "the",
+            "elect",
+            "rig"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "were",
+            "these",
+            "ear",
+            "realli",
+            "hi",
+            "grandmoth"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "were",
+            "thei",
+            "go",
+            "to",
+            "beat",
+            "me",
+            "up"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "were",
+            "we",
+            "go",
+            "to",
+            "kiss"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "andi",
+            "pick",
+            "me"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "erick",
+            "show",
+            "me",
+            "that",
+            "he",
+            "want",
+            "to",
+            "talk",
+            "to",
+            "me",
+            "all",
+            "the",
+            "time",
+            "again"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "georg",
+            "ask",
+            "me",
+            "to",
+            "marri",
+            "him"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "bui",
+            "a",
+            "new",
+            "bmw",
+            "convert",
+            "thi",
+            "week"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "crack",
+            "it"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "die",
+            "after",
+            "100"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "find",
+            "a",
+            "new",
+            "and",
+            "better",
+            "job"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "get",
+            "a",
+            "rais"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "get",
+            "in",
+            "troubl"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "retir",
+            "from",
+            "my",
+            "current",
+            "job"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "still",
+            "be",
+            "a",
+            "lieuten"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "win",
+            "powerbal"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "i",
+            "win",
+            "the",
+            "lotto",
+            "tonight"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "sam",
+            "and",
+            "i",
+            "ever",
+            "get",
+            "back",
+            "togeth",
+            "again"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "sam",
+            "ever",
+            "chang"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "thi",
+            "coffe",
+            "date",
+            "between",
+            "lindsai",
+            "fisher",
+            "and",
+            "i",
+            "happen",
+            "soon"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "thi",
+            "coffe",
+            "date",
+            "happen"
+          ]
+        },
+        {
+          "intent": "standard",
+          "utterance": [
+            "will",
+            "we",
+            "make",
+            "thi",
+            "coffe",
+            "date",
+            "happen",
+            "soon"
+          ]
+        }
+      ],
+      "features": {
+        "50": 1,
+        "80": 1,
+        "100": 1,
+        "goodby": 1,
+        "for": 7,
+        "now": 2,
+        "bye": 4,
+        "take": 2,
+        "care": 1,
+        "okai": 3,
+        "see": 8,
+        "you": 83,
+        "later": 1,
+        "i": 45,
+        "must": 1,
+        "go": 12,
+        "hello": 1,
+        "hi": 6,
+        "howdi": 1,
+        "what": 2,
+        "is": 23,
+        "your": 13,
+        "name": 2,
+        "ar": 44,
+        "am": 7,
+        "a": 66,
+        "good": 1,
+        "person": 3,
+        "current": 2,
+        "pregnant": 2,
+        "girlfriend": 1,
+        "move": 3,
+        "back": 4,
+        "to": 47,
+        "philli": 1,
+        "airplan": 1,
+        "flown": 1,
+        "insid": 2,
+        "appl": 1,
+        "red": 1,
+        "fruit": 2,
+        "aspirin": 1,
+        "and": 23,
+        "blah": 1,
+        "medicin": 1,
+        "banana": 2,
+        "orang": 3,
+        "sweet": 2,
+        "veget": 3,
+        "band": 1,
+        "aid": 1,
+        "us": 16,
+        "heal": 1,
+        "car": 4,
+        "drive": 4,
+        "on": 15,
+        "the": 44,
+        "water": 3,
+        "chip": 1,
+        "pretzel": 1,
+        "salti": 1,
+        "clock": 1,
+        "bike": 3,
+        "tell": 1,
+        "time": 5,
+        "coffe": 5,
+        "hot": 5,
+        "chocol": 2,
+        "cold": 2,
+        "drink": 3,
+        "comput": 3,
+        "brush": 2,
+        "teeth": 2,
+        "with": 11,
+        "dog": 1,
+        "cat": 4,
+        "anim": 2,
+        "that": 6,
+        "live": 4,
+        "in": 16,
+        "jungl": 1,
+        "fli": 1,
+        "robin": 1,
+        "small": 2,
+        "insect": 1,
+        "footbal": 2,
+        "basebal": 1,
+        "type": 1,
+        "of": 8,
+        "food": 1,
+        "healthi": 1,
+        "eat": 4,
+        "hous": 2,
+        "more": 3,
+        "than": 2,
+        "dollar": 1,
+        "lasagna": 1,
+        "spaghetti": 1,
+        "chines": 1,
+        "dish": 1,
+        "lizard": 1,
+        "muscl": 1,
+        "need": 5,
+        "our": 3,
+        "bodi": 1,
+        "musician": 1,
+        "artist": 1,
+        "creativ": 1,
+        "my": 12,
+        "parent": 1,
+        "proud": 1,
+        "me": 26,
+        "oven": 1,
+        "freez": 2,
+        "thing": 4,
+        "paint": 1,
+        "syrup": 1,
+        "bath": 1,
+        "peanut": 1,
+        "made": 2,
+        "into": 1,
+        "jam": 1,
+        "pencil": 2,
+        "marker": 1,
+        "write": 2,
+        "whiteboard": 1,
+        "pillow": 1,
+        "mattress": 1,
+        "sleep": 2,
+        "rattlesnak": 1,
+        "poison": 1,
+        "rose": 1,
+        "tall": 1,
+        "tree": 2,
+        "scoop": 1,
+        "ic": 1,
+        "cream": 1,
+        "shoe": 2,
+        "worn": 1,
+        "over": 2,
+        "top": 1,
+        "sock": 2,
+        "shovel": 2,
+        "someth": 5,
+        "would": 15,
+        "dig": 1,
+        "hole": 1,
+        "spanish": 1,
+        "german": 1,
+        "differ": 1,
+        "languag": 1,
+        "last": 3,
+        "dai": 3,
+        "approach": 1,
+        "letter": 1,
+        "d": 1,
+        "s": 1,
+        "word": 1,
+        "dress": 2,
+        "there": 2,
+        "minut": 1,
+        "an": 6,
+        "hour": 1,
+        "tryout": 1,
+        "next": 3,
+        "week": 2,
+        "umbrella": 1,
+        "keep": 2,
+        "wet": 2,
+        "violin": 1,
+        "piano": 1,
+        "music": 2,
+        "instrument": 2,
+        "we": 10,
+        "be": 10,
+        "togeth": 4,
+        "again": 3,
+        "realli": 12,
+        "love": 6,
+        "wild": 1,
+        "danger": 1,
+        "can": 39,
+        "backpack": 1,
+        "get": 10,
+        "circl": 1,
+        "have": 22,
+        "corner": 1,
+        "fish": 3,
+        "out": 5,
+        "tiger": 1,
+        "pet": 2,
+        "he": 11,
+        "know": 1,
+        "how": 1,
+        "make": 4,
+        "thi": 12,
+        "jump": 3,
+        "pig": 1,
+        "walk": 1,
+        "two": 1,
+        "feet": 1,
+        "space": 1,
+        "save": 2,
+        "relationship": 3,
+        "titan": 1,
+        "win": 4,
+        "superbowl": 1,
+        "world": 2,
+        "help": 6,
+        "bui": 3,
+        "egg": 2,
+        "by": 2,
+        "dozen": 1,
+        "wear": 6,
+        "blindfold": 1,
+        "without": 5,
+        "seatbelt": 1,
+        "tomato": 1,
+        "soup": 2,
+        "fork": 1,
+        "mouth": 1,
+        "juic": 2,
+        "fry": 1,
+        "pan": 1,
+        "grow": 1,
+        "mustach": 1,
+        "foot": 1,
+        "puddl": 1,
+        "hors": 3,
+        "bread": 1,
+        "flour": 1,
+        "rake": 1,
+        "leav": 2,
+        "hammer": 2,
+        "ride": 3,
+        "helmet": 1,
+        "camel": 1,
+        "rip": 2,
+        "concret": 1,
+        "dark": 1,
+        "flashlight": 1,
+        "stir": 1,
+        "spoon": 1,
+        "stretch": 1,
+        "rock": 1,
+        "teach": 1,
+        "talk": 4,
+        "touch": 1,
+        "elbow": 1,
+        "nose": 1,
+        "at": 4,
+        "beach": 1,
+        "tie": 1,
+        "pajama": 1,
+        "school": 2,
+        "could": 9,
+        "spend": 2,
+        "cloth": 3,
+        "mom": 1,
+        "try": 2,
+        "sue": 1,
+        "she": 3,
+        "celtic": 1,
+        "nba": 1,
+        "titl": 1,
+        "him": 6,
+        "did": 8,
+        "forget": 1,
+        "lock": 1,
+        "door": 1,
+        "her": 1,
+        "joe": 3,
+        "come": 2,
+        "confess": 1,
+        "if": 33,
+        "feel": 1,
+        "same": 2,
+        "date": 6,
+        "ditch": 1,
+        "bad": 5,
+        "matter": 1,
+        "chicken": 1,
+        "fridg": 2,
+        "do": 33,
+        "astronaut": 1,
+        "work": 3,
+        "groceri": 1,
+        "store": 2,
+        "babi": 2,
+        "their": 2,
+        "diaper": 1,
+        "chang": 2,
+        "bird": 2,
+        "fed": 1,
+        "mother": 1,
+        "butterfli": 1,
+        "run": 1,
+        "fast": 1,
+        "engin": 1,
+        "climb": 1,
+        "children": 1,
+        "plai": 3,
+        "toi": 1,
+        "find": 2,
+        "inform": 1,
+        "eleph": 1,
+        "ocean": 1,
+        "eras": 1,
+        "remov": 1,
+        "mark": 1,
+        "fire": 1,
+        "extinguish": 1,
+        "fireman": 1,
+        "player": 1,
+        "stick": 1,
+        "chanc": 1,
+        "like": 2,
+        "enough": 1,
+        "bf": 1,
+        "new": 3,
+        "dirti": 1,
+        "pilot": 1,
+        "fly": 1,
+        "paper": 2,
+        "plane": 1,
+        "plant": 1,
+        "glass": 1,
+        "storm": 1,
+        "damag": 1,
+        "home": 1,
+        "teacher": 1,
+        "learn": 1,
+        "call": 1,
+        "emerg": 1,
+        "staff": 2,
+        "meet": 2,
+        "hand": 1,
+        "each": 1,
+        "other": 1,
+        "window": 1,
+        "clean": 1,
+        "chew": 1,
+        "enjoi": 1,
+        "travel": 1,
+        "when": 1,
+        "swim": 2,
+        "still": 3,
+        "throw": 1,
+        "garbag": 1,
+        "broken": 1,
+        "roller": 1,
+        "skate": 1,
+        "grass": 1,
+        "doe": 14,
+        "domen": 2,
+        "want": 8,
+        "duan": 1,
+        "death": 1,
+        "life": 2,
+        "fleetwood": 2,
+        "mac": 2,
+        "it": 15,
+        "snow": 2,
+        "dure": 1,
+        "summer": 2,
+        "john": 4,
+        "miss": 1,
+        "husband": 1,
+        "understand": 1,
+        "happi": 3,
+        "wife": 3,
+        "sun": 1,
+        "warren": 1,
+        "loretta": 1,
+        "befor": 2,
+        "yogurt": 1,
+        "not": 2,
+        "refriger": 1,
+        "birthdai": 1,
+        "alwai": 1,
+        "happen": 4,
+        "ha": 7,
+        "been": 8,
+        "cheat": 4,
+        "too": 3,
+        "long": 1,
+        "mike": 1,
+        "alreadi": 1,
+        "milk": 1,
+        "spoil": 1,
+        "trip": 1,
+        "realiz": 1,
+        "forev": 1,
+        "workout": 1,
+        "much": 1,
+        "lost": 1,
+        "sens": 1,
+        "empathi": 1,
+        "spoken": 1,
+        "soulmat": 1,
+        "predat": 1,
+        "practic": 1,
+        "hard": 1,
+        "spread": 1,
+        "rumor": 1,
+        "about": 2,
+        "june": 1,
+        "north": 1,
+        "pole": 1,
+        "someon": 2,
+        "smile": 1,
+        "thei": 2,
+        "sad": 1,
+        "light": 1,
+        "sink": 1,
+        "tasti": 1,
+        "smell": 2,
+        "stink": 1,
+        "ground": 1,
+        "break": 1,
+        "fix": 2,
+        "cut": 1,
+        "yourself": 1,
+        "should": 10,
+        "dentist": 1,
+        "ball": 1,
+        "catch": 1,
+        "bracelet": 1,
+        "own": 1,
+        "jewelri": 1,
+        "pen": 1,
+        "boil": 1,
+        "shirt": 1,
+        "stapl": 1,
+        "watch": 1,
+        "movi": 1,
+        "bank": 1,
+        "warm": 1,
+        "went": 1,
+        "restaur": 1,
+        "clown": 1,
+        "were": 17,
+        "bee": 1,
+        "sing": 1,
+        "fin": 1,
+        "builder": 1,
+        "three": 1,
+        "leg": 2,
+        "caterpillar": 1,
+        "chair": 1,
+        "aliv": 1,
+        "gallup": 1,
+        "shark": 1,
+        "ant": 1,
+        "dirt": 1,
+        "owner": 1,
+        "rotten": 1,
+        "nice": 2,
+        "flat": 1,
+        "tire": 1,
+        "cheater": 1,
+        "everyth": 1,
+        "ly": 2,
+        "scare": 1,
+        "mai": 3,
+        "lose": 1,
+        "worth": 1,
+        "bet": 1,
+        "game": 1,
+        "abl": 1,
+        "sick": 1,
+        "julien": 1,
+        "els": 1,
+        "mad": 1,
+        "build": 1,
+        "all": 2,
+        "dream": 1,
+        "favorit": 1,
+        "wish": 1,
+        "some": 1,
+        "extra": 1,
+        "luck": 1,
+        "appli": 1,
+        "librari": 1,
+        "manag": 1,
+        "posit": 1,
+        "burger": 1,
+        "lunch": 1,
+        "give": 1,
+        "becki": 1,
+        "monei": 1,
+        "shop": 1,
+        "casino": 1,
+        "todai": 1,
+        "reach": 1,
+        "sanskar": 1,
+        "so": 1,
+        "wa": 6,
+        "mean": 1,
+        "friend": 1,
+        "why": 1,
+        "couldnt": 1,
+        "hang": 1,
+        "seri": 1,
+        "will": 19,
+        "elect": 1,
+        "rig": 1,
+        "these": 1,
+        "ear": 1,
+        "grandmoth": 1,
+        "beat": 1,
+        "up": 1,
+        "kiss": 1,
+        "andi": 1,
+        "pick": 1,
+        "erick": 1,
+        "show": 1,
+        "georg": 1,
+        "ask": 1,
+        "marri": 1,
+        "bmw": 1,
+        "convert": 1,
+        "crack": 1,
+        "die": 1,
+        "after": 1,
+        "better": 1,
+        "job": 2,
+        "rais": 1,
+        "troubl": 1,
+        "retir": 1,
+        "from": 1,
+        "lieuten": 1,
+        "powerbal": 1,
+        "lotto": 1,
+        "tonight": 1,
+        "sam": 2,
+        "ever": 2,
+        "between": 1,
+        "lindsai": 1,
+        "fisher": 1,
+        "soon": 2
+      },
+      "logistic": {
+        "observations": {
+          "bye": [
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10,
+              11,
+              12
+            ],
+            [
+              6
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              13,
+              14,
+              15
+            ]
+          ],
+          "hello": [
+            [
+              16
+            ],
+            [
+              17
+            ],
+            [
+              18
+            ]
+          ],
+          "name": [
+            [
+              19,
+              20,
+              21,
+              22
+            ],
+            [
+              11,
+              19,
+              23
+            ]
+          ],
+          "standard": [
+            [
+              13,
+              24,
+              25,
+              26,
+              27
+            ],
+            [
+              13,
+              24,
+              28,
+              29
+            ],
+            [
+              13,
+              17,
+              24,
+              30
+            ],
+            [
+              13,
+              24,
+              31,
+              32,
+              33,
+              34
+            ],
+            [
+              13,
+              24,
+              31
+            ],
+            [
+              13,
+              24,
+              29
+            ],
+            [
+              23,
+              35,
+              36,
+              37
+            ],
+            [
+              23,
+              38,
+              39,
+              40
+            ],
+            [
+              23,
+              41,
+              42,
+              43,
+              44
+            ],
+            [
+              23,
+              42,
+              45,
+              46,
+              47,
+              48
+            ],
+            [
+              4,
+              23,
+              49,
+              50,
+              51,
+              52
+            ],
+            [
+              23,
+              33,
+              51,
+              53,
+              54,
+              55,
+              56,
+              57
+            ],
+            [
+              23,
+              42,
+              58,
+              59,
+              60
+            ],
+            [
+              23,
+              33,
+              42,
+              51,
+              61,
+              62,
+              63,
+              64
+            ],
+            [
+              23,
+              42,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            [
+              21,
+              23,
+              33,
+              51,
+              70,
+              71,
+              72,
+              73
+            ],
+            [
+              23,
+              42,
+              56,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80
+            ],
+            [
+              23,
+              42,
+              81,
+              82,
+              83,
+              84
+            ],
+            [
+              23,
+              42,
+              85,
+              86,
+              87,
+              88,
+              89
+            ],
+            [
+              23,
+              33,
+              40,
+              42,
+              48,
+              90,
+              91
+            ],
+            [
+              23,
+              92,
+              93,
+              94,
+              95
+            ],
+            [
+              23,
+              42,
+              96,
+              97,
+              98,
+              99
+            ],
+            [
+              23,
+              83,
+              100
+            ],
+            [
+              23,
+              31,
+              33,
+              101,
+              102,
+              103,
+              104
+            ],
+            [
+              23,
+              42,
+              105,
+              106,
+              107
+            ],
+            [
+              23,
+              88,
+              108,
+              109,
+              110,
+              111
+            ],
+            [
+              23,
+              33,
+              51,
+              112,
+              113,
+              114
+            ],
+            [
+              7,
+              23,
+              25,
+              33,
+              42,
+              51,
+              79,
+              115,
+              116,
+              117
+            ],
+            [
+              23,
+              118,
+              119,
+              120,
+              121
+            ],
+            [
+              23,
+              25,
+              33,
+              42,
+              51,
+              55,
+              122,
+              123,
+              124,
+              125
+            ],
+            [
+              23,
+              33,
+              42,
+              51,
+              55,
+              126,
+              127,
+              128
+            ],
+            [
+              23,
+              129,
+              130
+            ],
+            [
+              23,
+              131,
+              132,
+              133
+            ],
+            [
+              23,
+              47,
+              88,
+              134,
+              135,
+              136
+            ],
+            [
+              23,
+              56,
+              88,
+              137,
+              138,
+              139,
+              140,
+              141
+            ],
+            [
+              11,
+              23,
+              25,
+              33,
+              51,
+              73,
+              142,
+              143,
+              144,
+              145,
+              146
+            ],
+            [
+              23,
+              42,
+              147,
+              148,
+              149,
+              150
+            ],
+            [
+              23,
+              56,
+              151,
+              152,
+              153
+            ],
+            [
+              23,
+              42,
+              56,
+              79,
+              154,
+              155,
+              156,
+              157,
+              158
+            ],
+            [
+              1,
+              23,
+              79,
+              159,
+              160,
+              161,
+              162
+            ],
+            [
+              23,
+              163,
+              164,
+              165
+            ],
+            [
+              11,
+              23,
+              33,
+              51,
+              166,
+              167,
+              168
+            ],
+            [
+              23,
+              42,
+              169,
+              170,
+              171,
+              172
+            ],
+            [
+              15,
+              23,
+              33,
+              173,
+              174,
+              175,
+              176
+            ],
+            [
+              23,
+              79,
+              173,
+              177,
+              178
+            ],
+            [
+              23,
+              76,
+              179,
+              180
+            ],
+            [
+              25,
+              68,
+              181,
+              182,
+              183
+            ],
+            [
+              25,
+              181,
+              184,
+              185,
+              186
+            ],
+            [
+              25,
+              57,
+              78,
+              88,
+              181,
+              187,
+              188
+            ],
+            [
+              21,
+              25,
+              174,
+              181,
+              189,
+              190
+            ],
+            [
+              33,
+              177,
+              178,
+              181,
+              191,
+              192,
+              193
+            ],
+            [
+              13,
+              177,
+              181,
+              194,
+              195,
+              196
+            ],
+            [
+              55,
+              181,
+              197,
+              198,
+              199,
+              200
+            ],
+            [
+              103,
+              181,
+              201,
+              202,
+              203
+            ],
+            [
+              56,
+              164,
+              181,
+              204,
+              205,
+              206
+            ],
+            [
+              56,
+              174,
+              181,
+              202,
+              207
+            ],
+            [
+              111,
+              114,
+              177,
+              181,
+              195,
+              208
+            ],
+            [
+              11,
+              21,
+              25,
+              71,
+              72,
+              73,
+              137,
+              181
+            ],
+            [
+              11,
+              56,
+              181,
+              209,
+              210,
+              211,
+              212
+            ],
+            [
+              11,
+              25,
+              53,
+              54,
+              181,
+              213,
+              214
+            ],
+            [
+              11,
+              25,
+              53,
+              54,
+              181,
+              213,
+              215,
+              216
+            ],
+            [
+              11,
+              25,
+              73,
+              91,
+              181,
+              217,
+              218,
+              219
+            ],
+            [
+              11,
+              25,
+              91,
+              181,
+              215,
+              220
+            ],
+            [
+              11,
+              46,
+              113,
+              181,
+              221
+            ],
+            [
+              11,
+              25,
+              48,
+              79,
+              181,
+              222,
+              223
+            ],
+            [
+              11,
+              21,
+              25,
+              55,
+              181,
+              224,
+              225,
+              226
+            ],
+            [
+              11,
+              25,
+              139,
+              181,
+              196,
+              227
+            ],
+            [
+              11,
+              21,
+              25,
+              37,
+              92,
+              167,
+              181,
+              228
+            ],
+            [
+              11,
+              51,
+              181,
+              194,
+              215,
+              229,
+              230
+            ],
+            [
+              11,
+              25,
+              73,
+              181,
+              231,
+              232,
+              233
+            ],
+            [
+              11,
+              25,
+              62,
+              181,
+              215,
+              234,
+              235
+            ],
+            [
+              11,
+              25,
+              181,
+              234,
+              236
+            ],
+            [
+              11,
+              181,
+              237,
+              238
+            ],
+            [
+              10,
+              11,
+              25,
+              56,
+              79,
+              181,
+              215,
+              239,
+              240
+            ],
+            [
+              11,
+              56,
+              64,
+              79,
+              128,
+              152,
+              181
+            ],
+            [
+              11,
+              25,
+              73,
+              143,
+              181,
+              241,
+              242
+            ],
+            [
+              11,
+              25,
+              181,
+              243,
+              244
+            ],
+            [
+              11,
+              25,
+              33,
+              75,
+              181,
+              245,
+              246
+            ],
+            [
+              11,
+              21,
+              73,
+              181,
+              247,
+              248,
+              249
+            ],
+            [
+              11,
+              25,
+              51,
+              56,
+              142,
+              181,
+              250,
+              251
+            ],
+            [
+              11,
+              25,
+              181,
+              213,
+              252
+            ],
+            [
+              11,
+              33,
+              181,
+              213,
+              253,
+              254
+            ],
+            [
+              13,
+              55,
+              93,
+              255,
+              256,
+              257
+            ],
+            [
+              42,
+              108,
+              111,
+              255,
+              258,
+              259,
+              260
+            ],
+            [
+              42,
+              111,
+              232,
+              255,
+              259,
+              261
+            ],
+            [
+              56,
+              205,
+              255,
+              262,
+              263,
+              264
+            ],
+            [
+              10,
+              13,
+              56,
+              64,
+              151,
+              174,
+              195,
+              255,
+              265
+            ],
+            [
+              13,
+              33,
+              108,
+              266,
+              267,
+              268,
+              269
+            ],
+            [
+              13,
+              177,
+              178,
+              266,
+              270
+            ],
+            [
+              17,
+              33,
+              111,
+              178,
+              266,
+              271,
+              272,
+              273
+            ],
+            [
+              4,
+              10,
+              17,
+              23,
+              33,
+              56,
+              111,
+              266,
+              271,
+              272,
+              274,
+              275,
+              276
+            ],
+            [
+              108,
+              111,
+              177,
+              266,
+              277,
+              278
+            ],
+            [
+              77,
+              177,
+              266,
+              277,
+              279,
+              280
+            ],
+            [
+              15,
+              56,
+              79,
+              266,
+              279,
+              281,
+              282
+            ],
+            [
+              79,
+              283,
+              284,
+              285,
+              286,
+              287
+            ],
+            [
+              102,
+              283,
+              288,
+              289,
+              290,
+              291
+            ],
+            [
+              183,
+              211,
+              283,
+              288,
+              289,
+              292,
+              293,
+              294
+            ],
+            [
+              283,
+              295,
+              296,
+              297
+            ],
+            [
+              53,
+              185,
+              283,
+              298
+            ],
+            [
+              75,
+              133,
+              283,
+              299
+            ],
+            [
+              73,
+              283,
+              300,
+              301,
+              302
+            ],
+            [
+              51,
+              70,
+              208,
+              283,
+              303,
+              304
+            ],
+            [
+              56,
+              78,
+              79,
+              283,
+              305,
+              306
+            ],
+            [
+              122,
+              283,
+              307,
+              308,
+              309
+            ],
+            [
+              208,
+              283,
+              310,
+              311,
+              312
+            ],
+            [
+              51,
+              85,
+              283,
+              313,
+              314
+            ],
+            [
+              141,
+              213,
+              228,
+              283
+            ],
+            [
+              13,
+              25,
+              185,
+              283,
+              315
+            ],
+            [
+              13,
+              33,
+              108,
+              174,
+              265,
+              283,
+              316,
+              317,
+              318
+            ],
+            [
+              13,
+              265,
+              283,
+              316
+            ],
+            [
+              183,
+              257,
+              283,
+              319,
+              320
+            ],
+            [
+              283,
+              321,
+              322,
+              323,
+              324
+            ],
+            [
+              213,
+              283,
+              325,
+              326
+            ],
+            [
+              283,
+              327,
+              328,
+              329
+            ],
+            [
+              11,
+              208,
+              283,
+              330,
+              331
+            ],
+            [
+              25,
+              161,
+              173,
+              185,
+              254,
+              274,
+              283,
+              332,
+              333
+            ],
+            [
+              25,
+              173,
+              185,
+              283,
+              334,
+              335
+            ],
+            [
+              25,
+              33,
+              102,
+              103,
+              171,
+              172,
+              173,
+              283,
+              301,
+              336
+            ],
+            [
+              102,
+              173,
+              177,
+              283,
+              337,
+              338
+            ],
+            [
+              33,
+              102,
+              174,
+              283,
+              339,
+              340
+            ],
+            [
+              11,
+              218,
+              283,
+              341
+            ],
+            [
+              11,
+              283,
+              342,
+              343
+            ],
+            [
+              11,
+              15,
+              168,
+              183,
+              283,
+              344,
+              345
+            ],
+            [
+              11,
+              283,
+              285,
+              346
+            ],
+            [
+              11,
+              23,
+              56,
+              77,
+              79,
+              114,
+              283,
+              347,
+              348,
+              349
+            ],
+            [
+              11,
+              51,
+              55,
+              56,
+              283,
+              350,
+              351,
+              352
+            ],
+            [
+              25,
+              45,
+              46,
+              93,
+              94,
+              161,
+              185,
+              221,
+              353
+            ],
+            [
+              25,
+              203,
+              353,
+              354,
+              355
+            ],
+            [
+              25,
+              73,
+              111,
+              203,
+              353,
+              355,
+              356
+            ],
+            [
+              33,
+              111,
+              178,
+              191,
+              353,
+              357
+            ],
+            [
+              17,
+              88,
+              111,
+              188,
+              191,
+              353,
+              355,
+              358
+            ],
+            [
+              10,
+              33,
+              73,
+              111,
+              191,
+              353,
+              355,
+              359,
+              360
+            ],
+            [
+              56,
+              353,
+              361,
+              362,
+              363,
+              364
+            ],
+            [
+              111,
+              353,
+              365,
+              366
+            ],
+            [
+              108,
+              353,
+              358,
+              367,
+              368,
+              369,
+              370
+            ],
+            [
+              56,
+              66,
+              114,
+              194,
+              353,
+              371
+            ],
+            [
+              56,
+              250,
+              285,
+              287,
+              335,
+              353,
+              372,
+              373,
+              374
+            ],
+            [
+              15,
+              274,
+              279,
+              353,
+              375,
+              376,
+              377
+            ],
+            [
+              21,
+              55,
+              56,
+              152,
+              276,
+              353,
+              378,
+              379,
+              380
+            ],
+            [
+              55,
+              111,
+              191,
+              381,
+              382,
+              383
+            ],
+            [
+              32,
+              33,
+              175,
+              177,
+              183,
+              361,
+              381,
+              382,
+              384,
+              385
+            ],
+            [
+              25,
+              55,
+              277,
+              381,
+              382,
+              386,
+              387
+            ],
+            [
+              56,
+              79,
+              282,
+              381,
+              388,
+              389
+            ],
+            [
+              33,
+              73,
+              111,
+              119,
+              174,
+              191,
+              195,
+              271,
+              355,
+              381,
+              390,
+              391,
+              392
+            ],
+            [
+              111,
+              177,
+              195,
+              208,
+              381,
+              382,
+              393
+            ],
+            [
+              13,
+              55,
+              108,
+              185,
+              370,
+              382,
+              383
+            ],
+            [
+              13,
+              55,
+              185,
+              256,
+              257,
+              382,
+              384,
+              394
+            ],
+            [
+              13,
+              88,
+              108,
+              185,
+              395,
+              396,
+              397
+            ],
+            [
+              13,
+              33,
+              108,
+              185,
+              374,
+              398,
+              399
+            ],
+            [
+              56,
+              185,
+              382,
+              400,
+              401,
+              402
+            ],
+            [
+              56,
+              111,
+              185,
+              334,
+              382,
+              403,
+              404,
+              405
+            ],
+            [
+              20,
+              56,
+              66,
+              250,
+              274,
+              361,
+              406,
+              407,
+              408
+            ],
+            [
+              23,
+              274,
+              409,
+              410,
+              411,
+              412
+            ],
+            [
+              20,
+              143,
+              144,
+              274,
+              361,
+              413,
+              414
+            ],
+            [
+              20,
+              143,
+              274,
+              279,
+              361,
+              415
+            ],
+            [
+              143,
+              274,
+              353,
+              361,
+              416,
+              417
+            ],
+            [
+              20,
+              55,
+              56,
+              159,
+              274,
+              361,
+              362,
+              364,
+              418
+            ],
+            [
+              11,
+              161,
+              181,
+              210,
+              274,
+              361,
+              419,
+              420
+            ],
+            [
+              11,
+              15,
+              33,
+              56,
+              177,
+              274,
+              279,
+              421,
+              422,
+              423,
+              424
+            ],
+            [
+              11,
+              25,
+              181,
+              185,
+              274,
+              301,
+              425,
+              426
+            ],
+            [
+              11,
+              25,
+              185,
+              274,
+              283,
+              427,
+              428,
+              429
+            ],
+            [
+              11,
+              21,
+              22,
+              25,
+              42,
+              124,
+              181,
+              185,
+              274,
+              323,
+              430
+            ],
+            [
+              11,
+              20,
+              57,
+              66,
+              185,
+              274,
+              361,
+              431
+            ],
+            [
+              11,
+              21,
+              32,
+              144,
+              175,
+              237,
+              274,
+              361,
+              432,
+              433
+            ],
+            [
+              11,
+              15,
+              25,
+              33,
+              144,
+              274,
+              355,
+              434,
+              435,
+              436
+            ],
+            [
+              11,
+              33,
+              66,
+              67,
+              69,
+              144,
+              183,
+              274,
+              355,
+              437
+            ],
+            [
+              10,
+              11,
+              25,
+              33,
+              144,
+              274,
+              438,
+              439,
+              440
+            ],
+            [
+              11,
+              25,
+              255,
+              274,
+              441,
+              442,
+              443
+            ],
+            [
+              11,
+              25,
+              144,
+              185,
+              274,
+              292,
+              441,
+              444
+            ],
+            [
+              11,
+              25,
+              51,
+              144,
+              233,
+              274,
+              441,
+              445
+            ],
+            [
+              11,
+              25,
+              75,
+              144,
+              185,
+              274,
+              441,
+              446,
+              447
+            ],
+            [
+              11,
+              25,
+              144,
+              185,
+              274,
+              441,
+              447,
+              448
+            ],
+            [
+              11,
+              25,
+              255,
+              274,
+              345,
+              441,
+              449
+            ],
+            [
+              11,
+              25,
+              70,
+              144,
+              174,
+              274,
+              441,
+              450
+            ],
+            [
+              11,
+              25,
+              187,
+              196,
+              255,
+              274,
+              441
+            ],
+            [
+              11,
+              25,
+              228,
+              255,
+              274,
+              441,
+              451
+            ],
+            [
+              11,
+              25,
+              91,
+              144,
+              187,
+              274,
+              441,
+              452
+            ],
+            [
+              11,
+              78,
+              79,
+              144,
+              161,
+              274,
+              441,
+              453,
+              454
+            ],
+            [
+              11,
+              25,
+              144,
+              161,
+              185,
+              190,
+              274,
+              441,
+              455
+            ],
+            [
+              11,
+              144,
+              274,
+              416,
+              441,
+              456,
+              457
+            ],
+            [
+              11,
+              21,
+              25,
+              62,
+              234,
+              274,
+              361,
+              381,
+              423,
+              458,
+              459
+            ],
+            [
+              20,
+              25,
+              354,
+              460
+            ],
+            [
+              9,
+              15,
+              20,
+              33,
+              174,
+              461
+            ],
+            [
+              20,
+              33,
+              111,
+              191,
+              462
+            ],
+            [
+              20,
+              77,
+              88,
+              111,
+              191,
+              463,
+              464,
+              465
+            ],
+            [
+              20,
+              55,
+              56,
+              164,
+              361,
+              466,
+              467,
+              468
+            ],
+            [
+              20,
+              33,
+              54,
+              365,
+              469
+            ],
+            [
+              20,
+              365,
+              369
+            ],
+            [
+              20,
+              346,
+              365,
+              470
+            ],
+            [
+              10,
+              20,
+              409,
+              471,
+              472
+            ],
+            [
+              20,
+              108,
+              370,
+              383
+            ],
+            [
+              20,
+              111,
+              250,
+              261,
+              473
+            ],
+            [
+              13,
+              20,
+              27,
+              56,
+              79,
+              178,
+              195,
+              474
+            ],
+            [
+              20,
+              25,
+              195,
+              475,
+              476
+            ],
+            [
+              20,
+              21,
+              65,
+              69,
+              477
+            ],
+            [
+              13,
+              25,
+              185,
+              464,
+              478
+            ],
+            [
+              13,
+              185,
+              464,
+              479,
+              480,
+              481
+            ],
+            [
+              4,
+              13,
+              56,
+              423,
+              482,
+              483,
+              484,
+              485
+            ],
+            [
+              13,
+              56,
+              158,
+              209,
+              423
+            ],
+            [
+              4,
+              13,
+              25,
+              183,
+              423,
+              486,
+              487
+            ],
+            [
+              4,
+              13,
+              56,
+              423,
+              488,
+              489,
+              490,
+              491
+            ],
+            [
+              10,
+              13,
+              15,
+              33,
+              359,
+              360,
+              423
+            ],
+            [
+              13,
+              15,
+              33,
+              56,
+              423,
+              492,
+              493
+            ],
+            [
+              13,
+              33,
+              188,
+              265,
+              423,
+              494
+            ],
+            [
+              13,
+              33,
+              246,
+              423,
+              495
+            ],
+            [
+              13,
+              24,
+              25,
+              27,
+              457,
+              496
+            ],
+            [
+              55,
+              111,
+              191,
+              383,
+              497
+            ],
+            [
+              13,
+              33,
+              265,
+              384,
+              497,
+              498
+            ],
+            [
+              9,
+              13,
+              77,
+              188,
+              208,
+              266,
+              361,
+              376,
+              497
+            ],
+            [
+              108,
+              173,
+              188,
+              405,
+              462,
+              497,
+              499,
+              500,
+              501,
+              502
+            ],
+            [
+              56,
+              207,
+              420,
+              497,
+              503
+            ],
+            [
+              33,
+              56,
+              64,
+              111,
+              151,
+              195,
+              246,
+              261,
+              497,
+              504
+            ],
+            [
+              56,
+              441,
+              505,
+              506
+            ],
+            [
+              17,
+              177,
+              441,
+              507,
+              508,
+              509
+            ],
+            [
+              15,
+              33,
+              111,
+              411,
+              441,
+              510,
+              511
+            ],
+            [
+              15,
+              33,
+              173,
+              441,
+              512
+            ],
+            [
+              111,
+              504,
+              513,
+              514
+            ],
+            [
+              33,
+              56,
+              64,
+              77,
+              111,
+              176,
+              191,
+              246,
+              355,
+              475,
+              504,
+              515,
+              516
+            ],
+            [
+              33,
+              111,
+              265,
+              504,
+              517,
+              518,
+              519
+            ],
+            [
+              13,
+              25,
+              165,
+              195,
+              209,
+              319,
+              504,
+              520,
+              521
+            ],
+            [
+              13,
+              361,
+              504,
+              522
+            ],
+            [
+              2,
+              13,
+              504,
+              523,
+              524
+            ],
+            [
+              13,
+              25,
+              42,
+              303,
+              319,
+              504,
+              525,
+              526
+            ],
+            [
+              13,
+              25,
+              183,
+              504,
+              527
+            ],
+            [
+              13,
+              79,
+              183,
+              504,
+              528
+            ],
+            [
+              13,
+              28,
+              108,
+              504,
+              526,
+              529,
+              530
+            ],
+            [
+              13,
+              25,
+              174,
+              346,
+              504,
+              531
+            ],
+            [
+              13,
+              205,
+              504,
+              532
+            ],
+            [
+              13,
+              56,
+              205,
+              504,
+              533,
+              534
+            ],
+            [
+              13,
+              32,
+              42,
+              175,
+              176,
+              183,
+              504,
+              535,
+              536
+            ],
+            [
+              291,
+              504,
+              535,
+              536
+            ],
+            [
+              13,
+              42,
+              65,
+              195,
+              277,
+              380,
+              504,
+              537,
+              538,
+              539,
+              540
+            ],
+            [
+              65,
+              195,
+              277,
+              380,
+              504
+            ],
+            [
+              65,
+              173,
+              194,
+              195,
+              277,
+              380,
+              504,
+              540
+            ]
+          ]
+        },
+        "labels": [
+          "bye",
+          "hello",
+          "name",
+          "standard"
+        ],
+        "observationCount": 246
+      },
+      "useNeural": true,
+      "neuralClassifier": {
+        "settings": {
+          "config": {
+            "activation": "leaky-relu",
+            "hiddenLayers": [],
+            "learningRate": 0.1,
+            "errorThresh": 0.0005
+          }
+        },
+        "classifierMap": {}
+      }
+    },
+    {
+      "language": "zh",
+      "docs": [],
+      "features": {},
+      "logistic": {
+        "observations": {},
+        "labels": [],
+        "observationCount": 0
+      },
+      "useNeural": true,
+      "neuralClassifier": {
+        "settings": {
+          "config": {
+            "activation": "leaky-relu",
+            "hiddenLayers": [],
+            "learningRate": 0.1,
+            "errorThresh": 0.0005
+          }
+        },
+        "classifierMap": {}
+      }
+    }
+  ],
+  "responses": {
+    "en": {
+      "bye": [
+        {
+          "response": "see you again soon"
+        }
+      ],
+      "hello": [
+        {
+          "response": "Hey there"
+        }
+      ],
+      "name": [
+        {
+          "response": "I'm Blake Skelton, a creepy robot."
+        },
+        {
+          "response": "I'm your worst nightmare"
+        }
+      ],
+      "standard": [
+        {
+          "response": "It is certain"
+        },
+        {
+          "response": "It is decidedly so"
+        },
+        {
+          "response": "Without a doubt"
+        },
+        {
+          "response": "Yes, definitely"
+        },
+        {
+          "response": "You may rely on it"
+        },
+        {
+          "response": "As I see it, yes"
+        },
+        {
+          "response": "Most likely"
+        },
+        {
+          "response": "Outlook good"
+        },
+        {
+          "response": "Yes"
+        },
+        {
+          "response": "Signs point to yes"
+        },
+        {
+          "response": "Reply hazy, try again"
+        },
+        {
+          "response": "Ask again later"
+        },
+        {
+          "response": "Better not tell you now"
+        },
+        {
+          "response": "Cannot predict now"
+        },
+        {
+          "response": "Concentrate and ask again"
+        },
+        {
+          "response": "Don't count on it"
+        },
+        {
+          "response": "My reply is no"
+        },
+        {
+          "response": "My sources say no"
+        },
+        {
+          "response": "Outlook not so good"
+        },
+        {
+          "response": "Very doubtful"
+        },
+        {
+          "response": "Bless your heart there is no way"
+        },
+        {
+          "response": "Heavens to Betsy, there is absolutely no chance"
+        }
+      ]
+    }
+  }
+}
