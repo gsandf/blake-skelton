@@ -8,6 +8,7 @@ const setStateQuery = /* GraphQL */ `
   }
 `;
 
-const setDetectedState = state => query(setStateQuery, { state });
+const setDetectedState = detected =>
+  query(setStateQuery, { state: detected ? 'FULL_INTERACTIVE' : 'NO_HUMANS' });
 
 module.exports = { setDetectedState };
