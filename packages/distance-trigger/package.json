@@ -10,6 +10,9 @@
       "standard/no-callback-literal": "off"
     }
   },
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "@blake-skelton/node-query": "0.1.0",
     "mmm-usonic-fixed": "^2.5.4"
