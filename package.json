@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "format": "npx prettier-eslint-cli --write 'packages/**/*.js'"
+  },
   "workspaces": [
     "packages/*"
   ]
