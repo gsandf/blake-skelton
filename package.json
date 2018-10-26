@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "format": "npx prettier-eslint-cli --write 'packages/**/*.js'",
-    "start:effects": "cd packages/fortune-teller && DISPLAY=:0 yarn start",
+    "start:effects": "cd packages/fortune-teller && yarn start",
     "start:speech": "DISPLAY=:0 run-p start:fortune-teller start:distance-trigger",
     "start:speech:fast": "DISPLAY=:0 run-p start:effects start:distance-trigger",
     "start:distance-trigger": "wait-port 4000 && cd packages/distance-trigger && sudo node .",
