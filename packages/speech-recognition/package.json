@@ -2,6 +2,9 @@
   "name": "speech-recognition",
   "version": "0.1.0",
   "private": true,
+  "eslintConfig": {
+    "extends": "gsandf-react"
+  },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -14,10 +17,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     "chrome >=67"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-config-gsandf-react": "^1.1.0"
+  }
 }

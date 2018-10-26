@@ -3788,6 +3788,14 @@ escodegen@^1.10.0, escodegen@^1.11.0, escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-gsandf-react@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-gsandf-react/-/eslint-config-gsandf-react-1.1.0.tgz#258ac904b33cbf460b42bf56ca2233ade983470b"
+  integrity sha512-2F+w6LnV42nz0ZH0Qshi4YpGo0I/bgELLR3+MkzttbH+wjcyrE38Isv4IDoovXWPAf9LRM4Vu5KhajdtFaspPA==
+  dependencies:
+    eslint-config-gsandf "^1.0.0"
+    eslint-plugin-react "^7.8.0"
+
 eslint-config-gsandf@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-gsandf/-/eslint-config-gsandf-1.0.0.tgz#7c8b3f5761531b8941cba11971c9ff914da4e1d5"
@@ -3890,7 +3898,7 @@ eslint-plugin-promise@^3.5.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.8.0.tgz#65ebf27a845e3c1e9d6f6a5622ddd3801694b621"
   integrity sha512-JiFL9UFR15NKpHyGii1ZcvmtIqa3UTwiDAGb8atSffe43qJ3+1czVGN6UtkklpcJ2DVnqvTMzEKRaJdBkAL2aQ==
 
-eslint-plugin-react@7.11.1:
+eslint-plugin-react@7.11.1, eslint-plugin-react@^7.8.0:
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.11.1.tgz#c01a7af6f17519457d6116aa94fc6d2ccad5443c"
   integrity sha512-cVVyMadRyW7qsIUh3FHp3u6QHNhOgVrLQYdQEB1bPWBsgbNCHdFAeNMquBMCcZJu59eNthX053L70l7gRt4SCw==
