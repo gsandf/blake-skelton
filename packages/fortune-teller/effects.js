@@ -10,8 +10,8 @@ const setupPin = (pinNumber, ...options) =>
     };
 
 const pins = {
-  detected: setupPin(27, 'out'),
-  enabled: setupPin(29, 'out')
+  detected: setupPin(17, 'out'),
+  enabled: setupPin(27, 'out')
 };
 
 const states = {
