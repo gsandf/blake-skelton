@@ -43,11 +43,11 @@ const typeDefs = /* GraphQL */ `
 const resolvers = {
   Mutation: {
     approachState: (_, { state }) => {
-      if (state === 'FULL_INTERACTIVE') startRecording();
       if (isEffectsController) {
         setEffectState(state);
       } else {
         syncEffectState(state);
+        if (state === 'FULL_INTERACTIVE') startRecording();
       }
       return state;
     }

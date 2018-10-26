@@ -4,7 +4,7 @@ const express = require('express');
 const { server } = require('./server');
 const speechServcie = require('./speech-service');
 
-speechServcie.init();
+if (process.env.HOSTNAME !== 'pieffects') speechServcie.init();
 
 server.express.use(
   '/',
