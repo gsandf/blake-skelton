@@ -2,6 +2,7 @@ const { Language, NlpManager } = require('node-nlp');
 const path = require('path');
 const pathExists = require('path-exists');
 const player = require('play-sound')();
+const { setEffectState } = require('./effects');
 
 const { getFallbackAnswer, questionTypes } = require('./questions');
 
@@ -46,6 +47,8 @@ module.exports = {
       player.play(audioFilePath, { aplay: ['-Dplug:default'] });
       played = true;
     }
+
+    setEffectState('NO_HUMANS');
 
     return { played, response };
   }
