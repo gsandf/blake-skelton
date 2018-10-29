@@ -1,7 +1,8 @@
 module.exports = {
   id: 'wrong',
   inputs: [
-    'whats the weather look like today',
+    'blah blah blah',
+    'this is garbage',
     'tell me about your life',
     'whats the answer to life, the universe, and everything'
   ],
