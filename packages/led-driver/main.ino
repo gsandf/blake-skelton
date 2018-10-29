@@ -26,8 +26,9 @@
 #include <dmx.h>
 #include <power_mgt.h>
 
-#define INPUT_PIN 10
 #define LED_PIN 7
+#define INPUT_PIN 10
+#define FOG_OUTPUT 12
 #define NUM_LEDS 300
 #define LED_TYPE TM1809
 #define COLOR_ORDER GRB
@@ -43,6 +44,12 @@ void setup()
 {
     Serial.begin(9600);
     pinMode(INPUT_PIN, INPUT);
+    pinMode(FOG_OUTPUT, OUTPUT);
+
+    // Turn off fog when starting
+    digitalWrite(FOG_OUTPUT, HIGH);
+
+    // Set up LEDs
     FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS);
 }
 
@@ -51,11 +58,12 @@ void loop()
     int delayTime;
     int inputStatus = digitalRead(INPUT_PIN);
 
-    Serial.print("inputStatus");
+    Serial.print("inputStatus ");
     Serial.println(inputStatus);
 
-    if (inputStatus)
+    if (inputStatus == HIGH)
     {
+        startFog();
         delayTime = glowingLights();
     }
     else
@@ -81,6 +89,13 @@ int alternatingLights()
 
     // return how long this should delay
     return 1000;
+}
+
+void startFog()
+{
+    digitalWrite(FOG_OUTPUT, LOW);
+    delay(100);
+    digitalWrite(FOG_OUTPUT, HIGH);
 }
 
 void fadeall()
