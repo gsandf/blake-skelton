@@ -2865,6 +2865,46 @@
             "happen",
             "soon"
           ]
+        },
+        {
+          "intent": "wrong",
+          "utterance": [
+            "blah",
+            "blah",
+            "blah"
+          ]
+        },
+        {
+          "intent": "wrong",
+          "utterance": [
+            "thi",
+            "is",
+            "garbag"
+          ]
+        },
+        {
+          "intent": "wrong",
+          "utterance": [
+            "tell",
+            "me",
+            "about",
+            "your",
+            "life"
+          ]
+        },
+        {
+          "intent": "wrong",
+          "utterance": [
+            "what",
+            "the",
+            "answer",
+            "to",
+            "life",
+            "the",
+            "univers",
+            "and",
+            "everyth"
+          ]
         }
       ],
       "features": {
@@ -2878,11 +2918,11 @@
         "ar": 46,
         "you": 84,
         "who": 1,
-        "what": 3,
-        "is": 24,
-        "thi": 13,
+        "what": 4,
+        "is": 25,
+        "thi": 14,
         "thing": 5,
-        "your": 13,
+        "your": 14,
         "name": 2,
         "am": 7,
         "i": 44,
@@ -2894,7 +2934,7 @@
         "girlfriend": 1,
         "move": 3,
         "back": 4,
-        "to": 47,
+        "to": 48,
         "philli": 1,
         "airplan": 1,
         "flown": 1,
@@ -2903,8 +2943,8 @@
         "red": 1,
         "fruit": 2,
         "aspirin": 1,
-        "and": 23,
-        "blah": 1,
+        "and": 24,
+        "blah": 4,
         "medicin": 1,
         "banana": 2,
         "orang": 3,
@@ -2918,14 +2958,14 @@
         "car": 4,
         "drive": 4,
         "on": 15,
-        "the": 44,
+        "the": 46,
         "water": 3,
         "chip": 1,
         "pretzel": 1,
         "salti": 1,
         "clock": 1,
         "bike": 3,
-        "tell": 1,
+        "tell": 2,
         "time": 5,
         "coffe": 5,
         "hot": 5,
@@ -2973,7 +3013,7 @@
         "my": 12,
         "parent": 1,
         "proud": 1,
-        "me": 26,
+        "me": 27,
         "oven": 1,
         "freez": 2,
         "paint": 1,
@@ -3210,7 +3250,7 @@
         "swim": 2,
         "still": 3,
         "throw": 1,
-        "garbag": 1,
+        "garbag": 2,
         "broken": 1,
         "roller": 1,
         "skate": 1,
@@ -3220,7 +3260,7 @@
         "want": 8,
         "duan": 1,
         "death": 1,
-        "life": 2,
+        "life": 4,
         "fleetwood": 2,
         "mac": 2,
         "it": 15,
@@ -3267,7 +3307,7 @@
         "hard": 1,
         "spread": 1,
         "rumor": 1,
-        "about": 2,
+        "about": 3,
         "june": 1,
         "north": 1,
         "pole": 1,
@@ -3323,7 +3363,7 @@
         "flat": 1,
         "tire": 1,
         "cheater": 1,
-        "everyth": 1,
+        "everyth": 2,
         "okai": 2,
         "ly": 2,
         "scare": 1,
@@ -3403,7 +3443,9 @@
         "between": 1,
         "lindsai": 1,
         "fisher": 1,
-        "soon": 2
+        "soon": 2,
+        "answer": 1,
+        "univers": 1
       },
       "logistic": {
         "observations": {
@@ -5460,13 +5502,41 @@
               499,
               535
             ]
+          ],
+          "wrong": [
+            [
+              36
+            ],
+            [
+              11,
+              12,
+              342
+            ],
+            [
+              14,
+              57,
+              105,
+              352,
+              399
+            ],
+            [
+              10,
+              26,
+              35,
+              50,
+              352,
+              455,
+              536,
+              537
+            ]
           ]
         },
         "labels": [
           "hello",
-          "standard"
+          "standard",
+          "wrong"
         ],
-        "observationCount": 242
+        "observationCount": 246
       },
       "useNeural": true,
       "neuralClassifier": {
@@ -5513,64 +5583,22 @@
       ],
       "standard": [
         {
-          "response": "It is certain"
-        },
-        {
-          "response": "It is decidedly so"
-        },
-        {
           "response": "Without a doubt"
         },
         {
           "response": "Yes, definitely"
         },
         {
-          "response": "You may rely on it"
-        },
-        {
-          "response": "As I see it, yes"
-        },
-        {
-          "response": "Most likely"
-        },
-        {
-          "response": "Outlook good"
-        },
-        {
           "response": "Yes"
         },
         {
-          "response": "Signs point to yes"
-        },
-        {
           "response": "Reply hazy, try again"
-        },
-        {
-          "response": "Ask again later"
-        },
-        {
-          "response": "Better not tell you now"
-        },
-        {
-          "response": "Cannot predict now"
         },
         {
           "response": "Concentrate and ask again"
         },
         {
           "response": "Don't count on it"
-        },
-        {
-          "response": "My reply is no"
-        },
-        {
-          "response": "My sources say no"
-        },
-        {
-          "response": "Outlook not so good"
-        },
-        {
-          "response": "Very doubtful"
         },
         {
           "response": "Bless your heart there is no way"
