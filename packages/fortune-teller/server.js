@@ -11,9 +11,9 @@ const isEffectsController = process.env.HOSTNAME === 'pieffects';
 
 const typeDefs = /* GraphQL */ `
   enum ApproachState {
-    NO_HUMANS
-    COME_CLOSER
+    AWAITING_FORTUNE
     FULL_INTERACTIVE
+    NO_HUMANS
   }
 
   type Fortune {
@@ -43,7 +43,7 @@ const typeDefs = /* GraphQL */ `
 const resolvers = {
   Mutation: {
     approachState: (_, { state }) => {
-      if (isEffectsController && state === 'FULL_INTERACTIVE') {
+      if (isEffectsController) {
         setEffectState(state);
       } else {
         syncEffectState(state);

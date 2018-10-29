@@ -6,8 +6,8 @@ const setupPin = (pinNumber, ...options) =>
   Gpio.accessible
     ? new Gpio(pinNumber, ...options)
     : {
-      writeSync: value => console.log(`setting pin ${pinNumber} to`, value)
-    };
+        writeSync: value => console.log(`setting pin ${pinNumber} to`, value)
+      };
 
 const pins = {
   detected: setupPin(17, 'out'),

@@ -7,5 +7,5 @@ watchForDistance(1000, 1, detected => {
     detected ? 'Detected people' : 'No one detected'
   );
 
-  setDetectedState(detected);
+  if (detected) setDetectedState();
 });
