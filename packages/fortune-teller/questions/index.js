@@ -5,6 +5,6 @@ const standard = require('./standard');
 const wrong = require('./wrong');
 
 module.exports = {
-  getFallbackAnswer: uniqueRandomArray(standard.outputs),
+  getFallbackAnswer: uniqueRandomArray(wrong.outputs),
   questionTypes: [hello, standard, wrong]
 };
