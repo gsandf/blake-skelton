@@ -76,14 +76,14 @@ class VoiceRecognizer extends PureComponent {
     this.stopRecording();
   };
 
-  handleEnd = () => {
+  handleEnd = async () => {
     this.stopRecording();
-    
+
     if (this.state.capturedText === '') {
       // Trigger effects to stop
       await getFortune('');
     } else {
-      this.setState({ capturedText: '' })
+      this.setState({ capturedText: '' });
     }
   };
 
