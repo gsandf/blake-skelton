@@ -37,6 +37,12 @@ if (pathExists.sync(trainedModelFile)) {
 
 module.exports = {
   getFortune: async question => {
+    // Work-around to disable effects
+    if (question === '') {
+      syncEffectState('NO_HUMANS');
+      return { played: false, response: '' };
+    }
+
     const guessedLanguage = language.guessBest(question, languages);
     const intent = await manager.process(guessedLanguage.locale, question);
     const response = intent.answer || getFallbackAnswer();
